@@ -1,0 +1,196 @@
+[
+  {
+    "label": "Archives",
+    "url": "archives/",
+    "color": "yellow",
+    "target": false
+  },
+  {
+    "label": "Blogs",
+    "url": "https://blogs.9th.fun",
+    "color": "yellow",
+    "target": true,
+    "navbar": true
+  },
+  {
+    "label": "Bluesky",
+    "url": "https://bsky.app/profile/9th.fun",
+    "target": true
+  },
+  {
+    "label": "Certifications",
+    "url": "certifications/",
+    "color": "yellow",
+    "target": false
+  },
+  {
+    "label": "Codeberg",
+    "url": "https://codeberg.org/ninthcircle",
+    "target": true
+  },
+  {
+    "label": "Dotfiles",
+    "url": "https://github.com/nos1dot618/dotfiles",
+    "color": "purple",
+    "target": true
+  },
+  {
+    "label": "Fable",
+    "url": "https://fable.co/ninthcircle-151186282765",
+    "target": true,
+    "hidden": true
+  },
+  {
+    "label": "Gallery",
+    "url": "https://gallery.9th.fun",
+    "color": "purple",
+    "target": true
+  },
+  {
+    "label": "GitHub",
+    "url": "https://github.com/nos1dot618",
+    "target": true
+  },
+  {
+    "label": "GitLab",
+    "url": "https://gitlab.com/ninthcircle",
+    "target": true
+  },
+  {
+    "label": "GoodReads",
+    "url": "https://www.goodreads.com/ninthcircle",
+    "target": true
+  },
+  {
+    "label": "Hashnode",
+    "url": "https://hashnode.com/@ninthcircle",
+    "target": true
+  },
+  {
+    "label": "Instagram",
+    "url": "https://www.instagram.com/nos1dot618",
+    "target": true
+  },
+  {
+    "label": "Keyoxide",
+    "url": "https://keyoxide.org/aspe:keyoxide.org:RDBQ6GTTZSCLICIIML2UVF4YT4",
+    "target": true
+  },
+  {
+    "label": "Library",
+    "url": "library/",
+    "color": "yellow",
+    "target": false
+  },
+  {
+    "label": "Lichess",
+    "url": "https://lichess.org/@/TheNosferatu",
+    "target": true
+  },
+  {
+    "label": "Linked in",
+    "url": "https://www.linkedin.com/in/nos1dot618",
+    "target": true
+  },
+  {
+    "label": "Kitsu",
+    "url": "https://kitsu.app/users/ninthcircle",
+    "target": true
+  },
+  {
+    "label": "Mail",
+    "url": "mailto:nosferatu@9th.fun",
+    "color": "yellow",
+    "target": true
+  },
+  {
+    "label": "Mastodon",
+    "url": "https://mastodon.social/@nos1dot618",
+    "target": true
+  },
+  {
+    "label": "PGP",
+    "url": "pgp/",
+    "color": "yellow",
+    "target": false
+  },
+  {
+    "label": "Projects",
+    "url": "https://github.com/nos1dot618?tab=repositories",
+    "color": "yellow",
+    "target": true,
+    "navbar": true
+  },
+  {
+    "label": "Reddit",
+    "url": "https://www.reddit.com/user/LuckyDGreat",
+    "target": true
+  },
+  {
+    "label": "Resume",
+    "url": "resume/",
+    "color": "purple",
+    "target": false
+  },
+  {
+    "label": "Self Hosted Gitea Instance",
+    "url": "https://gitea.9th.fun",
+    "color": "purple",
+    "target": true
+  },
+  {
+    "label": "SIMKL",
+    "url": "https://simkl.com/7626569/",
+    "target": true
+  },
+  {
+    "label": "Spotify",
+    "url": "https://open.spotify.com/user/31v5izzempw42wfp46phlvb2qebq",
+    "target": true
+  },
+  {
+    "label": "SQLite Notebook",
+    "url": "https://sqlite-notebook.9th.fun",
+    "color": "blue",
+    "target": true
+  },
+  {
+    "label": "Substack",
+    "url": "https://substack.com/@ninthcircle",
+    "target": true
+  },
+  {
+    "label": "Tumblr",
+    "url": "https://www.tumblr.com/nos1dot618",
+    "target": true
+  },
+  {
+    "label": "Twitter",
+    "url": "https://x.com/nos1dot618",
+    "target": true
+  },
+  {
+    "label": "Vault",
+    "url": "https://vault.9th.fun",
+    "color": "blue",
+    "target": true
+  },
+  {
+    "label": "Writings",
+    "url": "https://ninthcircle.substack.com",
+    "color": "yellow",
+    "target": true,
+    "navbar": true
+  },
+  {
+    "label": "YouTube",
+    "url": "https://www.youtube.com/@hyoutek1",
+    "target": true
+  },
+  {
+    "label": "Website Code",
+    "url": "https://github.com/nos1dot618/9th.fun",
+    "navbar": true,
+    "hidden": true
+  }
+]

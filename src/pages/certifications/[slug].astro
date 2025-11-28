@@ -1,0 +1,45 @@
+---
+import links from "./_links.json" assert {type: "json"};
+
+export function getStaticPaths() {
+    return links.map(link => ({
+        params: {slug: link.slug},
+        props: link
+    }));
+}
+
+const ROOT = "../../";
+
+const link = Astro.props;
+---
+<html>
+<head>
+    <title>NinthCircle - Certifications</title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="The one who lays dormant!"/>
+    <link rel="stylesheet" href={ROOT + "styles.css"}/>
+    <link rel="icon" type="image/x-icon" href={ROOT + "images/favicon.png"}/>
+    <meta name="viewport" content="width=device-width"/>
+</head>
+<body>
+<div class="banner" style="text-align:left">
+    <a class="link" href="../">
+        <button class="button">Back</button>
+    </a>
+</div>
+<h1 class="header">
+    {link.title}
+</h1>
+<div class="p">
+    {
+        link.certificates.map(certificate =>
+                <img class="thumbnail" height="100%" src={ROOT + `certifications/${link.slug}/${certificate}`}
+                        style="margin-top:20px;" width="100%" alt={link.title}/>
+        )
+    }
+    <a class="link" href={ROOT + `certifications/${link.slug}/certificate.pdf`} target="_blank">
+        <button>If the Certificate doesn't load; click this button to download instead</button>
+    </a>
+</div>
+</body>
+</html>

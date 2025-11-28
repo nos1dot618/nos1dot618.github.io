@@ -1,0 +1,49 @@
+[
+  {
+    "label": "Community Work",
+    "org": "Sarvpriye Foundation",
+    "slug": "sarvpriye_foundation",
+    "title": "Community Work Certificate from Sarvpriye Foundation",
+    "certificates": [
+      "certificate.jpg"
+    ]
+  },
+  {
+    "label": "Ethical Hacking",
+    "org": "Coursera",
+    "slug": "ethical_hacking",
+    "title": "Ethical Hacking Certificate from Coursera",
+    "certificates": [
+      "certificate.jpg"
+    ]
+  },
+  {
+    "label": "Haskell",
+    "org": "mooc.fi",
+    "slug": "haskell",
+    "title": "Haskell Mooc Transcript",
+    "certificates": [
+      "certificate_01.jpg",
+      "certificate_02.jpg",
+      "certificate_03.jpg"
+    ]
+  },
+  {
+    "label": "Java Masterclass",
+    "org": "Udemy",
+    "slug": "java_masterclass",
+    "title": "Java Masterclass Certificate from Udemy",
+    "certificates": [
+      "certificate.jpg"
+    ]
+  },
+  {
+    "label": "Summer Undergraduate Research Fellowship (SURF)",
+    "org": "IRD@IIITD",
+    "slug": "surf",
+    "title": "SURF Certificate of Excellence from IRD@IIITD",
+    "certificates": [
+      "certificate.jpg"
+    ]
+  }
+]

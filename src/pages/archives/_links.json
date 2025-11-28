@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Websites featured in HIMYM",
+    "url": "himym-websites/",
+    "target": false
+  },
+  {
+    "label": "Do What The F*ck You Want To Public License",
+    "url": "https://spdx.org/licenses/WTFPL.html",
+    "target": true
+  },
+  {
+    "label": "Microsoft Windows 95 Video Guide with Jennifer Aniston &amp; Matthew Perry | (VHS) 1995",
+    "url": "https://youtu.be/6ypXfodOu-s?si=5Mrr5yuo7wx5MRp_",
+    "target": true
+  },
+  {
+    "label": "Windows 10 Enterprise LTSC IoT 21H2 / 2021 English 64 bit",
+    "url": "https://archive.org/details/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f_202112",
+    "target": true
+  }
+]

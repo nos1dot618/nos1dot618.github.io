@@ -1,0 +1,93 @@
+---
+import unsortedLinks from "./_links.json" assert {type: "json"};
+
+const links = [...unsortedLinks].sort((a, b) => a.label.localeCompare(b.label));
+---
+
+<html>
+<head lang="en">
+    <title>NinthCircle</title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="The one who lays dormant!"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png"/>
+    <meta name="viewport" content="width=device-width"/>
+</head>
+<body>
+<div class="banner" style="text-align:right">
+    {
+        links.filter((link) => link.navbar).map((link) =>
+                <a class="link" href={link.url} target="_blank"><span><button>{link.label}</button></span></a>
+        )
+    }
+</div>
+<h1 class="header">
+    About Me
+</h1>
+<div class="p">
+    <span>
+        Hey there, I am लक्ष्य (lakshay) which means "target" or "aim" in Hindi. A Manga and Music Enthusiast, and most importantly a <mark>Recreational Programmer</mark>. Have interest in almost anything and everything; android, open source, systems programming, manga, anime, linguistics, music, philosophy, mathematics, physics, science in general, chess, volleyball, history, books, archaeology, arts, and loves to read &amp; write about the stuff I love…
+        <br/>
+        <br/>
+        Wanna collaborate on a project?, send me an <a class="squiggly" href="mailto:nosferatu@9th.fun" target="_blank">email</a>!!
+        <br/>
+        Alias: Nosferatu, Ninthcircle, Nos1dot618
+    </span>
+</div>
+{
+    links.filter((link) => !link.hidden).map((link) =>
+            <a class="link" href={link.url} target={link.target ? "_blank" : undefined}><span><button
+                    class={link.color ? `button-${link.color}` : undefined}>{link.label}</button></span></a>
+    )
+}
+<h1 class="header">
+    Professional Experience
+</h1>
+<div class="p">
+    <div class="card">
+        <img src="images/logos/zlti.png" alt="ZLTI Logo"/>
+        <div class="card-content">
+            <div class="card-title">
+                <span>Member of Technical Staff <span class="subtext">at</span> <a class="squiggly"
+                        href="https://www.zlti.com/"
+                        target="_blank">ZL Technologies, Inc</a></span>
+            </div>
+            <div class="card-subtext">
+                July, 2025 - Present
+            </div>
+        </div>
+    </div>
+</div>
+<h1 class="header">
+    Education
+</h1>
+<div class="p">
+    <div class="card">
+        <img src="images/logos/iiitd.png" alt="ZLTI Logo"/>
+        <div class="card-content">
+            <div class="card-title">
+                <span>Bachelors of Technology in CSE <span class="subtext">from</span> <a class="squiggly"
+                        href="https://iiitd.ac.in/"
+                        target="_blank">IIITD, India</a></span>
+            </div>
+            <div class="card-subtext">
+                Jan, 2022 - Jun, 2025
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <img src="images/logos/ndps.png" alt="ZLTI Logo"/>
+        <div class="card-content">
+            <div class="card-title">
+                <span>High School <span class="subtext">from</span> <a class="squiggly"
+                        href="https://northdelhipublicschool.in/"
+                        target="_blank">North Delhi Public School, India</a></span>
+            </div>
+            <div class="card-subtext">
+                Apr, 2019 - Apr, 2021
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

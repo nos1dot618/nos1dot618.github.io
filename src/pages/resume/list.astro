@@ -1,0 +1,38 @@
+---
+import unsortedResumes from "./_resumes.json" assert {type: "json"};
+
+const ROOT = "../../";
+
+const resumes = [...unsortedResumes].sort((a, b) => a.title.localeCompare(b.title));
+---
+<html>
+<head>
+    <title>NinthCircle - Resumes</title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="The one who lays dormant!"/>
+    <link rel="stylesheet" href={ROOT + "styles.css"}/>
+    <link rel="icon" type="image/x-icon" href={ROOT + "images/favicon.png"}/>
+    <meta name="viewport" content="width=device-width"/>
+</head>
+<body>
+<div class="banner" style="text-align:left">
+    <a class="link" href={ROOT}>
+        <button class="button">Back</button>
+    </a>
+</div>
+<h1 class="header">
+    Certifications
+</h1>
+<div class="p">
+    <ul>
+        {
+            resumes.map((resume) =>
+                    <li>
+                        <a class="link hover-squiggly" href=`../${resume.slug}/`>{resume.title}</a>
+                    </li>
+            )
+        }
+    </ul>
+</div>
+</body>
+</html>

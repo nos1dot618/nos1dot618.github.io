@@ -1,0 +1,42 @@
+---
+import unsortedWebsites from "./_websites.json" assert {type: "json"};
+
+const ROOT = "../../";
+
+const websites = [...unsortedWebsites].sort((a, b) => a.episode.localeCompare(b.episode));
+---
+<html>
+<head>
+    <title>NinthCircle - Archives</title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="My Archives"/>
+    <link rel="stylesheet" href={ROOT + "styles.css"}/>
+    <link rel="icon" type="image/x-icon" href={ROOT + "images/favicon.png"}/>
+    <meta name="viewport" content="width=device-width"/>
+</head>
+<body>
+<div class="banner" style="text-align:left">
+    <a class="link" href="../">
+        <button class="button">Back</button>
+    </a>
+</div>
+<h1 class="header">
+    Websites featured in HIMYM
+</h1>
+<div class="p">
+    <ul>
+        {
+            websites.map((website) =>
+                    <li>
+                        <a class="link hover-squiggly"
+                                href={`https://${website.label.replace(/[^a-z]/g, "")}.${website.tld}`}
+                                target="_blank">{website.label}<span class="subtext"> dot {website.tld}</span> -
+                            <mark>s08e09</mark>
+                        </a>
+                    </li>
+            )
+        }
+    </ul>
+</div>
+</body>
+</html>

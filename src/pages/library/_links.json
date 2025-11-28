@@ -1,0 +1,104 @@
+[
+  {
+    "label": "Anime list",
+    "url": "https://kitsu.app/users/ninthcircle/library",
+    "site": "Kitsu",
+    "target": true
+  },
+  {
+    "label": "Manga list",
+    "url": "https://kitsu.app/users/ninthcircle/library?media=manga",
+    "site": "Kitsu",
+    "target": true
+  },
+  {
+    "label": "Books, I want to read",
+    "url": "https://www.goodreads.com/review/list/177332299?shelf=to-read",
+    "site": "GoodReads",
+    "target": true
+  },
+  {
+    "label": "Books, I am currently reading",
+    "url": "https://www.goodreads.com/review/list/177332299?shelf=currently-reading",
+    "site": "GoodReads",
+    "target": true
+  },
+  {
+    "label": "Books, I have read",
+    "url": "https://www.goodreads.com/review/list/177332299?shelf=read",
+    "site": "GoodReads",
+    "target": true
+  },
+  {
+    "label": "TV Shows list",
+    "url": "https://simkl.com/7626569/tv/",
+    "site": "SIMKL",
+    "target": true
+  },
+  {
+    "label": "Movies list",
+    "url": "https://simkl.com/7626569/movies/",
+    "site": "SIMKL",
+    "target": true
+  },
+  {
+    "label": "My favorite CS Conference Sessions",
+    "url": "https://ninthcircle.notion.site/My-favorite-CS-Conference-Sessions-1587f6ac96218081b65dfce111841d1a",
+    "site": "Notion",
+    "target": true
+  },
+  {
+    "label": "My favorite Browser Extensions",
+    "url": "https://ninthcircle.notion.site/My-favorite-Browser-Extension-1587f6ac96218070af49f2983a1a5a2d",
+    "site": "Notion",
+    "target": true
+  },
+  {
+    "label": "My favorite YouTubers",
+    "url": "https://ninthcircle.notion.site/My-favorite-YouTubers-1587f6ac96218010bbdbe0035c2b545c",
+    "site": "Notion",
+    "target": true
+  },
+  {
+    "label": "Software, that I use",
+    "url": "https://ninthcircle.notion.site/Softwares-that-I-use-1867f6ac96218011a609ce193b1665bd",
+    "site": "Notion",
+    "target": true
+  },
+  {
+    "label": "My Thorium config",
+    "url": "https://ninthcircle.notion.site/My-Thorium-config-2837f6ac962180f7b751ef8ac8515674",
+    "site": "Notion",
+    "target": true
+  },
+  {
+    "label": "CS Folks, I admire",
+    "url": "https://ninthcircle.notion.site/CS-folks-I-admire-1fc7f6ac962180c38424df850a5824fb",
+    "site": "Notion",
+    "target": true
+  },
+  {
+    "label": "Projects, I want to do",
+    "url": "https://ninthcircle.notion.site/Projects-4152736a2080475dbec90747bf6c0a38",
+    "site": "Notion",
+    "target": true
+  },
+  {
+    "label": "My Music Playlists",
+    "url": "https://ninthcircle.notion.site/My-Music-Playlists-2027f6ac9621802297fdf76f72d7c8bc",
+    "site": "Notion",
+    "target": true
+  },
+  {
+    "label": "My Resume List",
+    "url": "../resume/list/",
+    "site": "9th.fun",
+    "target": false
+  },
+  {
+    "label": "My Certification List",
+    "url": "../certifications/",
+    "site": "9th.fun",
+    "target": false
+  }
+]
