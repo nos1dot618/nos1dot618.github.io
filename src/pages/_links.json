@@ -30,7 +30,7 @@
   },
   {
     "label": "Dotfiles",
-    "url": "https://gitea.9th.fun/ninthcircle/dotfiles",
+    "url": "https://github.com/nos1dot618/dotfiles",
     "color": "purple",
     "target": true
   },
@@ -41,8 +41,8 @@
     "hidden": true
   },
   {
-    "label": "Gallary",
-    "url": "https://gallary.9th.fun",
+    "label": "Gallery",
+    "url": "https://gallery.9th.fun",
     "color": "purple",
     "target": true
   },
@@ -54,6 +54,11 @@
   {
     "label": "GitLab",
     "url": "https://gitlab.com/ninthcircle",
+    "target": true
+  },
+  {
+    "label": "GoodReads",
+    "url": "https://www.goodreads.com/ninthcircle",
     "target": true
   },
   {
@@ -111,7 +116,7 @@
   },
   {
     "label": "Projects",
-    "url": "https://gitlab.com/ninthcircle",
+    "url": "https://github.com/nos1dot618?tab=repositories",
     "color": "yellow",
     "target": true,
     "navbar": true
@@ -180,11 +185,6 @@
   {
     "label": "YouTube",
     "url": "https://www.youtube.com/@hyoutek1",
-    "target": true
-  },
-  {
-    "label": "GoodReads",
-    "url": "https://goodreads.com/ninthcircle",
     "target": true
   },
   {
