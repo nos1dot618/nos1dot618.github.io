@@ -11,12 +11,17 @@
   },
   {
     "label": "Microsoft Windows 95 Video Guide with Jennifer Aniston &amp; Matthew Perry | (VHS) 1995",
-    "url": "https://youtu.be/6ypXfodOu-s?si=5Mrr5yuo7wx5MRp_",
+    "url": "https://youtu.be/6ypXfodOu-s",
     "target": true
   },
   {
     "label": "Windows 10 Enterprise LTSC IoT 21H2 / 2021 English 64 bit",
     "url": "https://archive.org/details/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f_202112",
+    "target": true
+  },
+  {
+    "label": "Voyager's Golden Record: Jaat Kahan Ho by Surshri Kesar Bai Kerkar",
+    "url": "https://youtu.be/Qyj8QF5-6Fs",
     "target": true
   }
 ]
