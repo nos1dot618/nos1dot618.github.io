@@ -2,11 +2,43 @@
   {
     "title": "Development",
     "slug": "development",
-    "default": true
+    "pdf_url": "https://gitlab.com/ninthcircle/resumes/-/raw/master/dist/resume-development.pdf",
+    "png_url": "https://gitlab.com/ninthcircle/resumes/-/raw/master/dist/resume-development.png",
+    "default": false
   },
   {
     "title": "Compilers",
     "slug": "compilers",
+    "pdf_url": "https://gitlab.com/ninthcircle/resumes/-/raw/master/dist/resume-compilers.pdf",
+    "png_url": "https://gitlab.com/ninthcircle/resumes/-/raw/master/dist/resume-compilers.png",
+    "default": false
+  },
+  {
+    "title": "C++ Linux",
+    "slug": "cpp-linux",
+    "pdf_url": "https://gitlab.com/ninthcircle/resumes/-/raw/master/dist/resume-cpp-linux.pdf",
+    "png_url": "https://gitlab.com/ninthcircle/resumes/-/raw/master/dist/resume-cpp-linux.png",
+    "default": true
+  },
+  {
+    "title": "Dev Tools",
+    "slug": "dev-tools",
+    "pdf_url": "https://gitlab.com/ninthcircle/resumes/-/raw/master/dist/resume-dev-tools.pdf",
+    "png_url": "https://gitlab.com/ninthcircle/resumes/-/raw/master/dist/resume-dev-tools.png",
+    "default": false
+  },
+  {
+    "title": "Distributed",
+    "slug": "distributed",
+    "pdf_url": "https://gitlab.com/ninthcircle/resumes/-/raw/master/dist/resume-distributed.pdf",
+    "png_url": "https://gitlab.com/ninthcircle/resumes/-/raw/master/dist/resume-distributed.png",
+    "default": false
+  },
+  {
+    "title": "Python",
+    "slug": "python",
+    "pdf_url": "https://gitlab.com/ninthcircle/resumes/-/raw/master/dist/resume-python.pdf",
+    "png_url": "https://gitlab.com/ninthcircle/resumes/-/raw/master/dist/resume-python.png",
     "default": false
   }
 ]
