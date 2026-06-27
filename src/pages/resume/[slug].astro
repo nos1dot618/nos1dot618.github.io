@@ -15,9 +15,9 @@ const resume = Astro.props;
 ---
 <html>
 <head>
-    <title>NinthCircle - Resume</title>
+    <title>NinthCircle - Résumé</title>
     <meta charset="utf-8"/>
-    <meta name="description" content="My Resume"/>
+    <meta name="description" content="My Résumé"/>
     <link rel="stylesheet" href={ROOT + "styles.css"}/>
     <link rel="icon" type="image/x-icon" href={ROOT + "images/favicon.png"}/>
     <meta name="viewport" content="width=device-width"/>
@@ -32,10 +32,10 @@ const resume = Astro.props;
     Resume
 </h1>
 <div class="p">
-    <img class="thumbnail" height="100%" src={ROOT + `resume/${resume.slug}/resume.jpg`}
-            style="margin-top:20px;" width="100%" alt={`${resume.title} resume`}/>
-    <a class="link" href={ROOT + `resume/${resume.slug}/resume.pdf`} target="_blank">
-        <button>If the Resume doesn't load; click this button to download instead</button>
+    <img class="thumbnail" height="100%" src={resume.png_url}
+            style="margin-top:20px;" width="100%" alt={`${resume.title} Résumé`}/>
+    <a class="link" href={resume.pdf_url} target="_blank">
+        <button>If the Résumé doesn't load; click this button to download instead</button>
     </a>
 </div>
 </body>
