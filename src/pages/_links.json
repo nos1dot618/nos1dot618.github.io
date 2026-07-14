@@ -72,6 +72,12 @@
     "target": true
   },
   {
+    "label": "JVM Decoder",
+    "url": "https://jvm-decoder.9th.fun",
+    "color": "blue",
+    "target": true
+  },
+  {
     "label": "Keyoxide",
     "url": "https://keyoxide.org/aspe:keyoxide.org:RDBQ6GTTZSCLICIIML2UVF4YT4",
     "target": true
