@@ -23,5 +23,40 @@
     "label": "Voyager's Golden Record: Jaat Kahan Ho by Surshri Kesar Bai Kerkar",
     "url": "https://youtu.be/Qyj8QF5-6Fs",
     "target": true
+  },
+  {
+    "label": "Fast and reliable file hosting service",
+    "url": "https://bzzhr.to",
+    "target": true
+  },
+  {
+    "label": "Test drive Linux distros online",
+    "url": "https://distrosea.com",
+    "target": true
+  },
+  {
+    "label": "Staggering Beauty",
+    "url": "http://www.staggeringbeauty.com",
+    "target": true
+  },
+  {
+    "label": "The infinitely zooming image",
+    "url": "https://zoomquilt.org",
+    "target": true
+  },
+  {
+    "label": "The infinitely zooming image part 2",
+    "url": "https://zoomquilt2.com",
+    "target": true
+  },
+  {
+    "label": "CSS library for Metro UI",
+    "url": "https://discoui-org.github.io/discoui",
+    "target": true
+  },
+  {
+    "label": "CSS library for building interfaces that look like Windows 98",
+    "url": "https://jdan.github.io/98.css",
+    "target": true
   }
 ]

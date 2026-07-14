@@ -115,6 +115,13 @@
     "target": true
   },
   {
+    "label": "Open Source Contributions",
+    "url": "https://osc.9th.fun",
+    "color": "purple",
+    "target": true,
+    "navbar": true
+  },
+  {
     "label": "PGP",
     "url": "pgp/",
     "color": "yellow",
@@ -124,8 +131,7 @@
     "label": "Projects",
     "url": "https://github.com/nos1dot618?tab=repositories",
     "color": "yellow",
-    "target": true,
-    "navbar": true
+    "target": true
   },
   {
     "label": "Reddit",
@@ -161,16 +167,6 @@
     "target": true
   },
   {
-    "label": "Substack",
-    "url": "https://substack.com/@ninthcircle",
-    "target": true
-  },
-  {
-    "label": "Tumblr",
-    "url": "https://www.tumblr.com/nos1dot618",
-    "target": true
-  },
-  {
     "label": "Twitter",
     "url": "https://x.com/nos1dot618",
     "target": true
@@ -183,19 +179,14 @@
   },
   {
     "label": "Writings",
-    "url": "https://ninthcircle.substack.com",
+    "url": "https://lakshaynama.substack.com",
     "color": "yellow",
     "target": true,
     "navbar": true
   },
   {
-    "label": "YouTube",
-    "url": "https://www.youtube.com/@hyoutek1",
-    "target": true
-  },
-  {
     "label": "Website Code",
-    "url": "https://github.com/nos1dot618/9th.fun",
+    "url": "https://github.com/nos1dot618/nos1dot618.github.io",
     "navbar": true,
     "hidden": true
   }
