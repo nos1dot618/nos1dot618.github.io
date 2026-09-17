@@ -30,7 +30,7 @@
   },
   {
     "label": "Dotfiles",
-    "url": "https://gitea.9th.fun/ninthcircle/dotfiles",
+    "url": "https://github.com/nos1dot618/dotfiles",
     "color": "purple",
     "target": true
   },
@@ -115,6 +115,13 @@
     "target": true
   },
   {
+    "label": "Open Source Contributions",
+    "url": "https://osc.9th.fun",
+    "color": "purple",
+    "target": true,
+    "navbar": true
+  },
+  {
     "label": "PGP",
     "url": "pgp/",
     "color": "yellow",
@@ -124,8 +131,7 @@
     "label": "Projects",
     "url": "https://github.com/nos1dot618?tab=repositories",
     "color": "yellow",
-    "target": true,
-    "navbar": true
+    "target": true
   },
   {
     "label": "Reddit",
@@ -161,16 +167,6 @@
     "target": true
   },
   {
-    "label": "Substack",
-    "url": "https://substack.com/@ninthcircle",
-    "target": true
-  },
-  {
-    "label": "Tumblr",
-    "url": "https://www.tumblr.com/nos1dot618",
-    "target": true
-  },
-  {
     "label": "Twitter",
     "url": "https://x.com/nos1dot618",
     "target": true
@@ -189,13 +185,8 @@
     "navbar": true
   },
   {
-    "label": "YouTube",
-    "url": "https://www.youtube.com/@hyoutek1",
-    "target": true
-  },
-  {
     "label": "Website Code",
-    "url": "https://gitea.9th.fun/ninthcircle/9th.fun",
+    "url": "https://github.com/nos1dot618/nos1dot618.github.io",
     "navbar": true,
     "hidden": true
   }
