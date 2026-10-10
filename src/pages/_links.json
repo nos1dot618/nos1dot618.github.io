@@ -122,6 +122,12 @@
     "navbar": true
   },
   {
+    "label": "Pardarsh",
+    "url": "https://pardarsh.9th.fun",
+    "color": "blue",
+    "target": true
+  },
+  {
     "label": "PGP",
     "url": "pgp/",
     "color": "yellow",
