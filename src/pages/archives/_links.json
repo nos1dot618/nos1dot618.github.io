@@ -58,5 +58,20 @@
     "label": "CSS library for building interfaces that look like Windows 98",
     "url": "https://jdan.github.io/98.css",
     "target": true
+  },
+  {
+    "label": "The largest collection of free stuff on the internet!",
+    "url": "https://fmhy.net",
+    "target": true
+  },
+  {
+    "label": "By this art you may contemplate the variation of the 23 letters",
+    "url": "https://libraryofbabel.info",
+    "target": true
+  },
+  {
+    "label": "Kosavo thanks you",
+    "url": "https://kosovothanksyou.com",
+    "target": true
   }
 ]
