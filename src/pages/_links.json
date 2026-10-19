@@ -83,6 +83,12 @@
     "target": true
   },
   {
+    "label": "Lambda Discipline",
+    "url": "https://lambda-discipline.github.io/",
+    "color": "blue",
+    "target": true
+  },
+  {
     "label": "Library",
     "url": "library/",
     "color": "yellow",
